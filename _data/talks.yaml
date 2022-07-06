@@ -1,0 +1,23 @@
+talks:
+  - name: "Invited Talk at (<b>TechBeat</b> (in Chinese)"
+    time: "11/2021"
+    title: "Optimization for Deep Neural Networks"
+    category: "current"
+    link: "https://www.techbeat.net/talk-info?id=601"
+
+  - name: "Invited Talk at (<b>Tencent AI Lab, Seattle</b>)"
+    time: "12/2020"
+    title: "Apollo: An Adaptive Parameter-wise Diagonal Quasi-Newton Method for Nonconvex Stochastic Optimization"
+    category: "current"
+
+  - name: "Invited Talk at (<b>USC ISI, Duke CS, UMich CSE</b>)"
+    time: "3/2020 - 4/2020"
+    title: "Towards Structured-Infused and Disentangled Representation Learning"
+    category: "current"
+    link: "https://www.cs.duke.edu/events/node/3814"
+
+  - name: "Microsoft Research AI Breakthroughs"
+    time: "9/2019"
+    title: "FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow"
+    category: "current"
+
