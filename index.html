@@ -84,24 +84,7 @@ title: Home
             {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
             {% endif %}
-            {% if paper.bibtex %}
-              <a class="button" href="{{ paper.bibtex | prepend: site.baseurl }}" target="_blank">Bib</a>
-            {% endif %}
-            {% if paper.arXiv %}
-              <a class="button" href="{{ paper.arXiv }}" target="_blank">ArXiv</a>
-            {% endif %}
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
+            
           </p>
           <p>{{ paper.authors }}</p>
           <p>
@@ -123,23 +106,7 @@ title: Home
             {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
             {% endif %}
-            {% if paper.bibtex %}
-              <a class="button" href="{{ paper.bibtex | prepend: site.baseurl }}" target="_blank">Bib</a>
-            {% endif %}
-            {% if paper.arXiv %}
-              <a class="button" href="{{ paper.arXiv }}" target="_blank">ArXiv</a>
-            {% endif %}
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            
             {% endif %}
           </p>
           <p>{{ paper.authors }}</p>
