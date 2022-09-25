@@ -1,6 +1,6 @@
 papers:
   - title: "Apollo: An Adaptive Parameter-wise Diagonal Quasi-Newton Method for Nonconvex Stochastic Optimization"
-    authors: "<b>Xuezhe Ma</b>"
+    authors: "<b>Derrick Eui Gyu Kim</b>"
     venue: "Preprint"
     paper_pdf: "https://arxiv.org/abs/2009.13586"
     code: "https://github.com/XuezheMax/apollo"
