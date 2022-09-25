@@ -165,46 +165,15 @@ title: Home
       {% endfor %}
     </div>
 
-    <div class="tab-pane" id="testscore">
+    <div class="tab-pane" id="testscores">
       
       <p> Old SAT: 2250</p>
       <p> Toefl: 116 but fluent in English as I was raised in New Jersey and spent my undergraduate in New York </p>
       <p> GRE Verbal 161, Quant 165, Writing 5.0</p>
-      {% assign papers = site.data.publications.papers %}
-      {% for paper in papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b>
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
-            {% endif %}
-            {% if paper.bibtex %}
-              <a class="button" href="{{ paper.bibtex | prepend: site.baseurl }}" target="_blank">Bib</a>
-            {% endif %}
-            {% if paper.arXiv %}
-              <a class="button" href="{{ paper.arXiv }}" target="_blank">ArXiv</a>
-            {% endif %}
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-          </p>
-          <p>{{ paper.authors }}</p>
-          <p>
-            <i>{{ paper.venue }}</i>
-            {% if paper.award %}
-              (<b>{{ paper.award }}</b>)
-            {% endif %}
-          </p>
-        </div>
-      {% endfor %}
+     
+        
+           
+            
     </div>
 
     
