@@ -2,7 +2,7 @@ papers:
   - title: "Solving SVM using IPM"
     authors: "<b>Derrick Eui Gyu Kim</b>"
     paper_pdf: "https://arxiv.org/abs/2009.13586"
-    code: "https://github.com/XuezheMax/apollo"
+    code: "https://github.com/egk265/SVM_IPM"
     undergrad: y
     rl: n
     cv: n
