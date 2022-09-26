@@ -1,5 +1,5 @@
 papers:
-  - title: "Apollo: An Adaptive Parameter-wise Diagonal Quasi-Newton Method for Nonconvex Stochastic Optimization"
+  - title: "Solving SVM using IPM"
     authors: "<b>Derrick Eui Gyu Kim</b>"
     venue: "Preprint"
     paper_pdf: "https://arxiv.org/abs/2009.13586"
