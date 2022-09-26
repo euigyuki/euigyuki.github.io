@@ -4,7 +4,7 @@ papers:
     venue: "Preprint"
     paper_pdf: "https://arxiv.org/abs/2009.13586"
     code: "https://github.com/XuezheMax/apollo"
-    selected: y
+    undergrad: y
     rl: n
     cv: n
     nlp: n
