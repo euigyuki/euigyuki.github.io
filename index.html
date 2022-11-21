@@ -222,9 +222,10 @@ title: Home
       {% assign papers = site.data.publications.papers %}
         {% for paper in papers %}
           <div class="paper">
-            <p class="title"><b>{{ paper.title }}</b>
+            <p class="title">
              
               {% if paper.projects %}
+              <b>{{ paper.title }}</b>
                 <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}"target="_blank">link</a>
               {% endif %}
             </p>
