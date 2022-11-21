@@ -19,9 +19,8 @@ papers:
     bio: n
 
   - title: "NFT Tinder"
-    authors: "<b>Ming-Chang Chiu, Yingfei Wang, Derrick Eui Gyu Kim, Pin-Yu Chen, Xuezhe Ma</b>"
-    paper_pdf: "https://drive.google.com/file/d/147c6cKsEi4pGknTnmnhZXtleVY1x3N5q/view?usp=sharing"
-    code: "https://github.com/egk265/SVM_IPM"
+    authors: "<b>YeChan Lee, DeDeep Reddy, Derrick Eui Gyu Kim, Prudhvi Patnala, Riddhi Patel, Surili Hansalia</b>"
+    code: "https://play.unity.com/mg/other/build09-013-2"
     projects: y
     graduate: n
     undergrad: n
