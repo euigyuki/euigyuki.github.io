@@ -225,7 +225,7 @@ title: Home
             <p class="title"><b>{{ paper.title }}</b>
              
               {% if paper.code %}
-                <a class="button" href="{{ paper.code }}" target="_blank">link</a>
+                <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}"target="_blank">link</a>
               {% endif %}
             </p>
             <p>{{ paper.authors }}</p>
