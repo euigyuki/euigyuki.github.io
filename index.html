@@ -219,20 +219,7 @@ title: Home
       <p>-Implemented a working solution of the Sequence Alignment Problem in python</p>
       <b>4. Advanced Mobile Game Design(USC)</b>
       <p>-With a group of coworkers, I coded a working game in Unity called "NFT Tinder", which is a satire on the modern obsession with NFT</p>
-      {% assign papers = site.data.publications.papers %}
-        {% for paper in papers %}
-          <div class="paper">
-            <p class="title">
-             
-              {% if paper.projects %}
-              <b>{{ paper.title }}</b>
-                <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}"target="_blank">link</a>
-              {% endif %}
-            </p>
-            <p>{{ paper.authors }}</p>
-            
-          </div>
-        {% endfor %}
+      
 
             
     </div>
