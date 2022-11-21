@@ -226,16 +226,10 @@ title: Home
              
               {% if paper.projects %}
                 <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}"target="_blank">link</a>
-                {{ paper.authors }}
               {% endif %}
             </p>
-            <p></p>
-            <p>
-              <i>{{ paper.venue }}</i>
-              {% if paper.award %}
-                (<b>{{ paper.award }}</b>)
-              {% endif %}
-            </p>
+            <p>{{ paper.authors }}</p>
+            
           </div>
         {% endfor %}
 
