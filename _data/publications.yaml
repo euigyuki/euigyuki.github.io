@@ -13,7 +13,6 @@ papers:
     authors: "<b>Ming-Chang Chiu, Yingfei Wang, Derrick Eui Gyu Kim, Pin-Yu Chen, Xuezhe Ma</b>"
     paper_pdf: "https://drive.google.com/file/d/147c6cKsEi4pGknTnmnhZXtleVY1x3N5q/view?usp=sharing"
     code: "https://github.com/egk265/SVM_IPM"
-    undergrad: n
     grad: y
     rl: n
     cv: n
