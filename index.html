@@ -223,9 +223,6 @@ title: Home
         {% for paper in papers %}
           <div class="paper">
             <p class="title"><b>{{ paper.title }}</b>
-              {% if paper.paper_pdf %}
-                <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
-              {% endif %}
              
              
               {% if paper.code %}
