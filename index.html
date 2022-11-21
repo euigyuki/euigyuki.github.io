@@ -217,8 +217,30 @@ title: Home
       <p>-Implemented a Neural Network from scratch to classify the handwritten digits in the MNIST dataset</p>
       <b>3. Analysis of Algorithms(USC)</b>
       <p>-Implemented a working solution of the Sequence Alignment Problem in python</p>
-      <b>4. Unity Project(USC)</b>
+      <b>4. Advanced Mobile Game Design(USC)</b>
       <p>-With a group of coworkers, I coded a working game in Unity called "NFT Tinder", which is a satire on the modern obsession with NFT</p>
+      {% assign papers = site.data.publications.papers %}
+        {% for paper in papers %}
+          <div class="paper">
+            <p class="title"><b>{{ paper.title }}</b>
+              {% if paper.paper_pdf %}
+                <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+              {% endif %}
+             
+             
+              {% if paper.code %}
+                <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+              {% endif %}
+            </p>
+            <p>{{ paper.authors }}</p>
+            <p>
+              <i>{{ paper.venue }}</i>
+              {% if paper.award %}
+                (<b>{{ paper.award }}</b>)
+              {% endif %}
+            </p>
+          </div>
+        {% endfor %}
 
             
     </div>
