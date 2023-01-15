@@ -104,29 +104,11 @@ title: Home
         
       <p>-With the newly evolved constraints, attempted to find the optimal hyperplane that classifies the modified problem.</p>
       <p>-Submitted my thesis to Professor Sondjaja for review.</p>
+
+      <b>Solving SVM using IPM</b> <a href= https://drive.google.com/file/d/147c6cKsEi4pGknTnmnhZXtleVY1x3N5q/view?usp target="_blank"> PDF </a> <a href=https://github.com/egk265/SVM_IPM target="_blank"> CODE</a>
+      <b>Derrick Eui Gyu Kim</b>
        
-        {% assign papers = site.data.publications.papers %}
-        {% for paper in papers %}
-          <div class="paper">
-            <p class="title"><b>{{ paper.title }}</b>
-              {% if paper.paper_pdf %}
-                <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
-              {% endif %}
-             
-             
-              {% if paper.code %}
-                <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-              {% endif %}
-            </p>
-            <p>{{ paper.authors }}</p>
-            <p>
-              <i>{{ paper.venue }}</i>
-              {% if paper.award %}
-                (<b>{{ paper.award }}</b>)
-              {% endif %}
-            </p>
-          </div>
-        {% endfor %}
+       
     </div>
 
     <div class="tab-pane" id="graduate">
